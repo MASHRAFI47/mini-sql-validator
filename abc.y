@@ -289,8 +289,6 @@ int main()
     printf("=================================\n");
 
     printf("\nEnter SQL query.\n");
-    printf("Every query must end with ;\n");
-    printf("Press Ctrl+Z and Enter to exit.\n\n");
 
     yyparse();
 
